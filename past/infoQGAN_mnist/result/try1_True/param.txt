@@ -1,0 +1,11 @@
+G_lr = 0.001
+D_lr = 0.0001
+M_lr = 0.001
+coeff = 0.2
+use_mine = True
+use_qmine = False
+n_qubits = 8
+output_qubits = 6
+code_qubits = 2
+n_layers = 20
+param shape = torch.Size([20, 8, 3])

@@ -1,0 +1,14 @@
+G_lr = 0.001
+D_lr = 0.0003
+M_lr = 0.001
+G_scheduler: step=30, gamma=0.7
+D_scheduler: step=30, gamma=0.85
+M_scheduler: step=30, gamma=0.7
+coeff = 0.2
+use_mine = True
+use_qmine = False
+n_qubits = 8
+output_qubits = 2
+code_qubits = 2
+n_layers = 40
+param shape = torch.Size([40, 8, 2])
